@@ -1,6 +1,9 @@
 :root {
+    --white: #fff;
     --black: #000;
     --blue: #0047AB;
+    --lightblue: #3379E4;
+    --paleblue: #A6CAFF;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -17,6 +20,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
 }
 
 h1 {
@@ -47,7 +51,7 @@ button {
     background-color: var(--blue);
     border: 0.1rem solid var(--blue);
     border-radius: .4rem;
-    color: #fff;
+    color: var(--white);
     display: inline-block;
     font-size: 1.1rem;
     font-weight: 700;
@@ -59,4 +63,31 @@ button {
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+table {
+    border-spacing: initial;
+    width: 100%;
+}
+
+th {
+    background: var(--lightblue);
+    padding: 0.6em;
+}
+
+td {
+    background-color: var(--paleblue);
+    padding: 0.6em;
+}
+
+th, td {
+    border-top: solid 1px var(--lightblue) ;
 }

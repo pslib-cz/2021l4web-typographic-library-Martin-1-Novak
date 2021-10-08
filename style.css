@@ -6,3 +6,7 @@ main {
 .maintitle {
     text-align: center;
 }
+
+.title-underlined {
+    text-decoration: underline;
+}
