@@ -4,6 +4,7 @@
     --blue: #0047AB;
     --lightblue: #3379E4;
     --paleblue: #A6CAFF;
+    --lightgray: #B8B8B8;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -21,6 +22,8 @@ h1,h2,h3,h4,h5,h6 {
 p {
     font-family: 'Ubuntu', sans-serif;
     text-align: justify;
+    font: 16px;
+    line-height: 1.5em;
 }
 
 h1 {
@@ -65,6 +68,16 @@ button {
     white-space: nowrap;
 }
 
+.button--lightblue {
+    background-color: var(--lightblue);
+    color: var(--lightgray);
+}
+
+.button--paleblue {
+    background-color: var(--paleblue);
+    color: var(--black);
+}
+
 figure {
     margin: 0;
 }
@@ -92,6 +105,30 @@ th, td {
     border-top: solid 1px var(--lightblue) ;
 }
 
+ul {
+    list-style: circle inside;
+    font-size: 16px;
+}
+
+ol {
+    list-style: upper-roman;
+    padding-left: 58px;
+}
+
+li:nth-child(n+2) {
+    margin-top: 5px;
+}
+
+u {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+mark {
+    background-color: var(--paleblue);
+    color: var(--black);
+}
+
 a {
-    color: lawngreen;
+    color: var(--blue);
 }
