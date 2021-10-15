@@ -1,5 +1,5 @@
 # Typography CSS library
-**Author:** *First Lastname*
+**Author:** *Martin Novák*
 ## Demo site
 Link to **[demo](https://pslib-cz.github.io/2021l4web-typographic-library-Martin-1-Novak/)** site for preview.
 ## Dependecies
