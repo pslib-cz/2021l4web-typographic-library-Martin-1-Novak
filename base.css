@@ -91,3 +91,7 @@ td {
 th, td {
     border-top: solid 1px var(--lightblue) ;
 }
+
+a {
+    color: lawngreen;
+}
